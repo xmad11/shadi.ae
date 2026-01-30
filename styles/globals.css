@@ -4,6 +4,10 @@
 
 @import "./tokens.css";
 
+/* Tailwind v4 - Scan app directory for utility classes */
+@source "../app/**";
+@source "../components/**";
+
 /* Base styles */
 * {
   box-sizing: border-box;
