@@ -1,0 +1,43 @@
+// Mock data for design previews
+export const MOCK_RESTAURANTS = [
+  {
+    id: "1",
+    name: "Al Mallah",
+    cuisine: "Lebanese",
+    rating: 4.8,
+    area: "Satwa",
+    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+    priceRange: "$$",
+    tags: ["Late Night", "Delivery"],
+  },
+  {
+    id: "2",
+    name: "Arabian Tea House",
+    cuisine: "Emirati",
+    rating: 4.9,
+    area: "Al Fahidi",
+    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80",
+    priceRange: "$$$",
+    tags: ["Traditional", "Breakfast"],
+  },
+  {
+    id: "3",
+    name: "Operation Falafel",
+    cuisine: "Middle Eastern",
+    rating: 4.6,
+    area: "Jumeirah",
+    image: "https://images.unsplash.com/photo-1541529086516-972c96c4b6a0?w=800&q=80",
+    priceRange: "$",
+    tags: ["Vegan", "Quick"],
+  },
+  {
+    id: "4",
+    name: "BBQ Al Quoz",
+    cuisine: "BBQ",
+    rating: 4.7,
+    area: "Al Quoz",
+    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80",
+    priceRange: "$$$",
+    tags: ["Outdoor", "Groups"],
+  },
+]
