@@ -1,0 +1,128 @@
+/* ═══════════════════════════════════════════════════════════════════════════════
+   DESIGN TOKENS - Shadi.ae 2026
+   Tailwind CSS v4 @theme configuration
+   ═══════════════════════════════════════════════════════════════════════════════ */
+
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-brand-primary: oklch(0.65 0.16 45.0);
+  --color-brand-secondary: oklch(0.58 0.14 250.0);
+
+  /* Accent Colors */
+  --color-accent-rust: oklch(0.58 0.15 50.0);
+  --color-accent-sage: oklch(0.62 0.08 150.0);
+  --color-accent-teal: oklch(0.55 0.12 220.0);
+  --color-accent-berry: oklch(0.52 0.18 350.0);
+  --color-accent-honey: oklch(0.7 0.12 85.0);
+
+  /* Gray Color Palette */
+  --color-gray-50: oklch(0.98 0.01 240);
+  --color-gray-100: oklch(0.96 0.01 240);
+  --color-gray-200: oklch(0.93 0.01 240);
+  --color-gray-300: oklch(0.88 0.01 240);
+  --color-gray-400: oklch(0.73 0.01 240);
+  --color-gray-500: oklch(0.55 0.01 240);
+  --color-gray-600: oklch(0.44 0.01 240);
+  --color-gray-700: oklch(0.35 0.01 240);
+  --color-gray-800: oklch(0.28 0.01 240);
+  --color-gray-900: oklch(0.2 0.01 240);
+
+  /* Slate Color Palette */
+  --color-slate-50: oklch(0.98 0.01 250);
+  --color-slate-100: oklch(0.95 0.01 250);
+  --color-slate-200: oklch(0.9 0.01 250);
+  --color-slate-300: oklch(0.83 0.01 250);
+  --color-slate-400: oklch(0.68 0.01 250);
+  --color-slate-500: oklch(0.53 0.01 250);
+  --color-slate-600: oklch(0.42 0.01 250);
+  --color-slate-700: oklch(0.33 0.01 250);
+  --color-slate-800: oklch(0.26 0.01 250);
+  --color-slate-900: oklch(0.2 0.01 250);
+
+  /* Orange/Pink Gradients */
+  --color-orange-50: oklch(0.98 0.02 50);
+  --color-orange-100: oklch(0.94 0.04 50);
+  --color-orange-200: oklch(0.88 0.06 50);
+  --color-orange-300: oklch(0.8 0.08 50);
+  --color-orange-400: oklch(0.7 0.12 50);
+  --color-orange-500: oklch(0.6 0.15 50);
+  --color-orange-600: oklch(0.52 0.18 50);
+  --color-pink-50: oklch(0.97 0.02 350);
+  --color-pink-100: oklch(0.93 0.04 350);
+  --color-pink-200: oklch(0.87 0.06 350);
+  --color-pink-300: oklch(0.79 0.08 350);
+  --color-pink-400: oklch(0.69 0.12 350);
+  --color-pink-500: oklch(0.6 0.16 350);
+  --color-pink-600: oklch(0.52 0.18 350);
+  --color-purple-600: oklch(0.5 0.18 300);
+
+  /* Semantic Colors */
+  --color-success: oklch(0.65 0.15 145.0);
+  --color-warning: oklch(0.75 0.12 85.0);
+  --color-error: oklch(0.55 0.18 25.0);
+  --color-info: oklch(0.55 0.12 250.0);
+
+  /* Typography Scale */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
+  --font-size-7xl: 4.5rem;
+
+  /* Spacing Scale */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+
+  /* Max Width Containers */
+  --max-w-sm: 24rem;
+  --max-w-md: 28rem;
+  --max-w-lg: 32rem;
+  --max-w-xl: 36rem;
+  --max-w-2xl: 42rem;
+  --max-w-3xl: 48rem;
+  --max-w-4xl: 56rem;
+  --max-w-5xl: 64rem;
+  --max-w-6xl: 72rem;
+  --max-w-7xl: 80rem;
+
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Icon Sizes */
+  --icon-size-xs: 1rem;
+  --icon-size-sm: 1.125rem;
+  --icon-size-md: 1.25rem;
+  --icon-size-lg: 1.5rem;
+  --icon-size-xl: 1.75rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --shadow-inner: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+:root {
+  --fg: oklch(0.25 0.02 250.0);
+  --bg: oklch(0.98 0.005 85.0);
+}
